@@ -1,4 +1,12 @@
+# encoding: utf-8
+
 require ::File.expand_path('../config/environment', __FILE__)
+
+##
+# Backup v4.x Configuration
+#
+# Documentation: http://backup.github.io/backup
+# Issue Tracker: https://github.com/backup/backup/issues
 
 ##
 # Utilities

@@ -33,8 +33,16 @@ Backup::Model.new('projectname', 'Archive project with database') do
   #
   database PostgreSQL do |db|
     # Dump all databases
-    db.name = "projectname"
+    db.name = :all
     db.additional_options = ["-xc"]
+  end
+
+  ##
+  # MySQL [Database]
+  #
+  database MySQL do |db|
+    # Dump all databases
+    db.name = :all
   end
 
   ##

@@ -10,6 +10,10 @@
 
     vim config.rb
 
+## Check if everything is ok
+
+    bundle exec backup check -c config.rb
+
 ## Run backup
 
     ./bin/run.sh
