@@ -3,6 +3,8 @@
 ## Install
 
     git clone https://github.com/galetahub/backups.git
+    cd backups
+    bundle install --deployment
 
 ## Setup your configuration
 
